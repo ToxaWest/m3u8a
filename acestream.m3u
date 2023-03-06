@@ -105,6 +105,8 @@ acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 acestream://92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
 #EXTINF:-1 tvg-id="2na2",2x2
 acestream://ae0290d2b26b326c76a6842c1f62b643e29a6801
+#EXTINF:-1 tvg-id="sony-tv",.red
+acestream://e5546c985741ec758b39030c59ade2f3a311a06e
 #EXTINF:-1 tvg-id="sony-turbo",.black
 acestream://d67f201bfdc47d376b6195d50a3ac3ee231a92a5
 #EXTINF:-1 tvg-id="sony-scifi",.sci-fi
@@ -135,11 +137,11 @@ acestream://cba8d369eac629b577750edb90370cd1c5fb03b7
 acestream://8fb7f8107213a9020f298c8d0068ea86d0713d01
 #EXTINF:-1 tvg-id="foxlife",Fox Life HD
 acestream://36bd5c1fdf09e5e92aa68cc642ae2d4db6694526
-#EXTINF:-1 tvg-id="paramount-channel",Paramount Channel HD [PL]
+#EXTINF:-1 tvg-id="paramount-network-pl",Paramount Channel HD [PL]
 acestream://c9249bb68bf6219d56eb5a3f8c77ce580be60432
 #EXTINF:-1 tvg-id="paramount-comedy",Paramount Comedy Russia
 acestream://5680521f0e507f2c6f55f3de8dd79351615116c5
-#EXTINF:-1 ,Setanta Live 1
+#EXTINF:-1 tvg-id="setanta-sports",Setanta Live 1
 acestream://42fe2ce3ef6b92653a74d85b6e98c2ba0abee707
-#EXTINF:-1 ,Setanta Live 2
+#EXTINF:-1 tvg-id="setanta-sports-plus",Setanta Live 2
 acestream://f6d68cfa8694f814983f2a5757f4e0c4964b880c
