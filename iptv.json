@@ -3,5 +3,30 @@
     "name": "Квартал ТВ",
     "id": "kvartal-tv",
     "url": "http://195.189.60.181:312/456/index.m3u8"
+  },
+  {
+    "name": "Viasat Kino Action",
+    "id": "tv1000-action-cee",
+    "url": "http://195.189.60.181:312/123/index.m3u8"
+  },
+  {
+    "name": "Viasat Kino World",
+    "id": "tv1000-worldkino",
+    "url": "http://195.189.60.181:312/40/index.m3u8"
+  },
+  {
+    "name": "Viasat Kino",
+    "id": "tv1000-cee",
+    "url": "http://195.189.60.181:312/39/index.m3u8"
+  },
+  {
+    "name": "Viasat Kino Comedy",
+    "id": "vip-comedy-cee",
+    "url": "http://195.189.60.181:312/454/index.m3u8"
+  },
+  {
+    "name": "Viasat Kino Megahit",
+    "id": "vip-megahit-cee",
+    "url": "http://195.189.60.181:312/224/index.m3u8"
   }
 ]

@@ -64,6 +64,8 @@ module.exports = (async () => {
 
     bar1.stop();
 
+    playlist2.medias.sort((a,b) => a.name < b.name ? -1 : 1);
+
     fs.writeFileSync(path.join(__dirname, './epgMap.json'), JSON.stringify(mapId))
     fs.writeFileSync(path.join(__dirname, '/acestream2.m3u'), playlist2.getM3uString()
         .replace('#EXTM3U', '#EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"')

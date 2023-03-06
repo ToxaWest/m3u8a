@@ -1,10 +1,22 @@
 #EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
 #EXTINF:-1 tvg-id="kvartal-tv",Квартал ТВ
 http://195.189.60.181:312/456/index.m3u8
+#EXTINF:-1 tvg-id="tv1000-action-cee",Viasat Kino Action
+http://195.189.60.181:312/123/index.m3u8
+#EXTINF:-1 tvg-id="tv1000-worldkino",Viasat Kino World
+http://195.189.60.181:312/40/index.m3u8
+#EXTINF:-1 tvg-id="tv1000-cee",Viasat Kino
+http://195.189.60.181:312/39/index.m3u8
+#EXTINF:-1 tvg-id="vip-comedy-cee",Viasat Kino Comedy
+http://195.189.60.181:312/454/index.m3u8
+#EXTINF:-1 tvg-id="vip-megahit-cee",Viasat Kino Megahit
+http://195.189.60.181:312/224/index.m3u8
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
 acestream://3c679a39456838ea8abc77b288c95df2b7a3f45d
 #EXTINF:-1 tvg-id="bcu-catastrophe",BCU Catastrophe HD
 acestream://07d24566226c5851b9c3a3235e3451854d6baeac
+#EXTINF:-1 tvg-id="bcu-cinema",BCU Cinema HD
+acestream://ed699504c5010cab9046530306960e998a92f5e6
 #EXTINF:-1 tvg-id="bcu-cinemaplus",BCU Cinema+ HD
 acestream://4d6232def7e751c47eb44a017021055e8362b54a
 #EXTINF:-1 tvg-id="bcu-comedy",BCU Comedy HD
@@ -21,6 +33,8 @@ acestream://2814982beb7bb4bd74ad2f8c721ba4bcf7e93a04
 acestream://21fcd8e73936b64435d07832c2d8382609f48d6d
 #EXTINF:-1 tvg-id="bcu-kids-4k",BCU Kids 4K
 acestream://c3aa52aab6bd48c3b79189410fbf716f2e4dd293
+#EXTINF:-1 tvg-id="bcu-kids",BCU Kids HD
+acestream://535b288408b7c671bb1d5c292dd64beadf556ab9
 #EXTINF:-1 tvg-id="bcu-kids-plus",BCU Kids+ HD
 acestream://e2db1c6451aeff66756ae166cf507a0b2743b69a
 #EXTINF:-1 tvg-id="bcu-kinorating",BCU Kinorating HD
@@ -91,8 +105,6 @@ acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 acestream://92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
 #EXTINF:-1 tvg-id="2na2",2x2
 acestream://ae0290d2b26b326c76a6842c1f62b643e29a6801
-#EXTINF:-1 tvg-id="sony-tv",.red
-acestream://e5546c985741ec758b39030c59ade2f3a311a06e
 #EXTINF:-1 tvg-id="sony-turbo",.black
 acestream://d67f201bfdc47d376b6195d50a3ac3ee231a92a5
 #EXTINF:-1 tvg-id="sony-scifi",.sci-fi
