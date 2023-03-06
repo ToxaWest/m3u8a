@@ -121,6 +121,18 @@ http://127.0.0.1:6878/ace/getstream?id=d83992b759e6227f7cc9a20e4e4dae1b58e645c8&
 http://127.0.0.1:6878/ace/getstream?id=dc939e7815f47c5db59bd3e9fe4bb61ddecc45a5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="vip-serial",VIP Serial
 http://127.0.0.1:6878/ace/getstream?id=d13dd140058b7a528959e2b709aca4111b7cc076&hlc=1&spv=0
+#EXTINF:-1 tvg-id="tv1000-cee",Viasat Kino
+http://195.189.60.181:312/39/index.m3u8
+#EXTINF:-1 tvg-id="tv1000-action-cee",Viasat Kino Action
+http://195.189.60.181:312/123/index.m3u8
+#EXTINF:-1 tvg-id="vip-comedy-cee",Viasat Kino Comedy
+http://195.189.60.181:312/454/index.m3u8
+#EXTINF:-1 tvg-id="vip-megahit-cee",Viasat Kino Megahit
+http://195.189.60.181:312/224/index.m3u8
+#EXTINF:-1 tvg-id="tv1000-worldkino",Viasat Kino World
+http://195.189.60.181:312/40/index.m3u8
+#EXTINF:-1 tvg-id="kvartal-tv",Квартал ТВ
+http://195.189.60.181:312/456/index.m3u8
 #EXTINF:-1 tvg-id="match-football1",Матч! Футбол 1 ( original )
 http://127.0.0.1:6878/ace/getstream?id=b28db77c5084da7993395d77df96c30bb134f0a9&hlc=1&spv=0
 #EXTINF:-1 tvg-id="match-football2",Матч! Футбол 2 ( original )

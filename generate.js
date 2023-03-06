@@ -31,6 +31,7 @@ module.exports = (async () => {
         media1.name = s.name;
         media1.attributes = {"tvg-id": s.id}
         playlist.medias.push(media1);
+        playlist2.medias.push(media1)
     }
     bar1.start(parseSearch.length, 0);
     for (const s of parseSearch) {
