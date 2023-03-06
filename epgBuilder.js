@@ -30,6 +30,7 @@ module.exports = (async () => {
 
 
     console.log('done');
-    fs.writeFileSync(path.join(__dirname, './epg.xml') , parser.toXml(res))
-    fs.writeFileSync(path.join(__dirname, './epg.json'), JSON.stringify(res))
+    const startStr = '<?xml version="1.0" encoding="utf-8"?>\n' +
+        '<!DOCTYPE tv SYSTEM "https://iptvx.one/xmltv.dtd">'
+    fs.writeFileSync(path.join(__dirname, './epg.xml') , startStr + parser.toXml(res))
 })()
