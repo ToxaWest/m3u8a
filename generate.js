@@ -24,6 +24,7 @@ const parseSearch = [
 
 module.exports = (async () => {
     const playlist = new M3uPlaylist();
+    const playlist2 = new M3uPlaylist();
     const bar1 = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
     for (const s of iptv) {
         const media1 = new M3uMedia(s.url);
@@ -50,6 +51,9 @@ module.exports = (async () => {
                     mapId[title] = '';
                 }
                 playlist.medias.push(media1);
+
+                media1.location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://','')}=1&spv=0`;
+                playlist2.medias.push(media1);
             }
         }
         bar1.increment();
@@ -58,6 +62,9 @@ module.exports = (async () => {
     bar1.stop();
 
     fs.writeFileSync(path.join(__dirname, './epgMap.json'), JSON.stringify(mapId))
+    fs.writeFileSync(path.join(__dirname, '/acestream2.m3u'), playlist2.getM3uString()
+        .replace('#EXTM3U', '#EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"')
+    );
     fs.writeFileSync(path.join(__dirname, '/acestream.m3u'), playlist.getM3uString()
         .replace('#EXTM3U', '#EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"')
     );
