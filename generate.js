@@ -52,7 +52,7 @@ module.exports = (async () => {
                 }
                 playlist.medias.push(media1);
 
-                const location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://','')}=1&spv=0`;
+                const location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://','')}&hlc=1&spv=0`;
                 playlist2.medias.push({
                     ...media1,
                     location
