@@ -1,0 +1,12 @@
+{
+  "name": "acestream",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "m3u-parser-generator": "^1.2.0",
+    "cli-progress": "^3.12.0",
+    "node-fetch": "^3.3.0"
+  }
+}
