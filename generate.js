@@ -24,6 +24,11 @@ const parseSearch = [
     'кино'
 ]
 
+const unstable = [
+    'Setanta Sports Ukraine HD',
+    '2x2 HD'
+]
+
 module.exports = (async () => {
     const playlist = new M3uPlaylist();
     const playlist2 = new M3uPlaylist();
@@ -40,11 +45,10 @@ module.exports = (async () => {
         const html = await fetch('https://acestreamsearch.net/?q=' + s).then(s => s.blob()).then(s => s.text());
         const m = html.matchAll(/<a href="acestream:(.*?)<\/a>/gm);
         for (const result of m) {
-            if (result[0].indexOf('<small>') !== -1) {
-                const url = result[0].match(/href="(.*?)"/)[1];
-                const title = result[0].match(/>(.*?)</)[1]
-                    .replace('[RU]', '')
-                    .trim();
+            const url = result[0].match(/href="(.*?)"/)[1];
+            const title = result[0].match(/>(.*?)</)[1]
+                .replace('[RU]', '').trim();
+            if (result[0].indexOf('<small>') !== -1 || unstable.some(a => a === title)) {
                 if(!playlist.medias.some(({name}) => name === title)){
                     const media1 = new M3uMedia(url);
                     media1.name = title;
@@ -54,7 +58,6 @@ module.exports = (async () => {
                         mapId[title] = '';
                     }
                     playlist.medias.push(media1);
-
                     const location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://','')}&hlc=1&spv=0`;
                     playlist2.medias.push({
                         ...media1,

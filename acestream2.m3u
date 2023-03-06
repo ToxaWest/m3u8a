@@ -7,6 +7,8 @@ http://127.0.0.1:6878/ace/getstream?id=e5546c985741ec758b39030c59ade2f3a311a06e&
 http://127.0.0.1:6878/ace/getstream?id=ed6a12719fbc9c9b38c2ce69c065a84f3a9b42e6&hlc=1&spv=0
 #EXTINF:-1 tvg-id="2na2",2x2
 http://127.0.0.1:6878/ace/getstream?id=ae0290d2b26b326c76a6842c1f62b643e29a6801&hlc=1&spv=0
+#EXTINF:-1 tvg-id="2na2",2x2 HD
+http://127.0.0.1:6878/ace/getstream?id=511bedfb71a5b34877ce6eb6039100c7b89a73a4&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia1",Amedia 1
 http://127.0.0.1:6878/ace/getstream?id=5b1f4a0fb8abc134de4692179b55e4008f0e5e82&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia2",Amedia 2
@@ -107,6 +109,8 @@ http://127.0.0.1:6878/ace/getstream?id=5680521f0e507f2c6f55f3de8dd79351615116c5&
 http://127.0.0.1:6878/ace/getstream?id=42fe2ce3ef6b92653a74d85b6e98c2ba0abee707&hlc=1&spv=0
 #EXTINF:-1 tvg-id="setanta-sports-plus",Setanta Live 2
 http://127.0.0.1:6878/ace/getstream?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c&hlc=1&spv=0
+#EXTINF:-1 tvg-id="setanta-ua",Setanta Sports Ukraine HD
+http://127.0.0.1:6878/ace/getstream?id=0528a1cecd81efd3ec72f49bd32fa847bc924abf&hlc=1&spv=0
 #EXTINF:-1 tvg-id="tv1000",TV1000
 http://127.0.0.1:6878/ace/getstream?id=ae0d6d703ef80198263a1a868740cf059eac4e9e&hlc=1&spv=0
 #EXTINF:-1 tvg-id="tv1000-action",TV1000 Action
@@ -153,7 +157,7 @@ http://195.189.60.181:312/456/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=b2314014f5b3c51ed75dc5066260b5134fa4d5a6&hlc=1&spv=0
 #EXTINF:-1 tvg-id="kinojam1",Киноджем 1 HD
 http://127.0.0.1:6878/ace/getstream?id=6f59144864d644ee3f53fddef7db2c2f69255c2e&hlc=1&spv=0
-#EXTINF:-1 ,Кинозал 1
+#EXTINF:-1 tvg-id="kineko",Кинозал 1
 http://127.0.0.1:6878/ace/getstream?id=6c6849a17243f967d0c6f04323af9dfde161c3f2&hlc=1&spv=0
 #EXTINF:-1 tvg-id="kinokomedia",Кинокомедия
 http://127.0.0.1:6878/ace/getstream?id=dfb83e3ff3c570ba7346641c827d89bd472a18a2&hlc=1&spv=0
