@@ -19,7 +19,9 @@ const parseSearch = [
     'vip',
     'fox',
     'paramount',
-    'setanta'
+    'setanta',
+    'Шокирующее',
+    'кино'
 ]
 
 module.exports = (async () => {
@@ -43,21 +45,22 @@ module.exports = (async () => {
                 const title = result[0].match(/>(.*?)</)[1]
                     .replace('[RU]', '')
                     .trim();
+                if(!playlist.medias.some(({name}) => name === title)){
+                    const media1 = new M3uMedia(url);
+                    media1.name = title;
+                    if (mapId[title]) {
+                        media1.attributes = {"tvg-id": mapId[title]}
+                    } else {
+                        mapId[title] = '';
+                    }
+                    playlist.medias.push(media1);
 
-                const media1 = new M3uMedia(url);
-                media1.name = title;
-                if (mapId[title]) {
-                    media1.attributes = {"tvg-id": mapId[title]}
-                } else {
-                    mapId[title] = '';
+                    const location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://','')}&hlc=1&spv=0`;
+                    playlist2.medias.push({
+                        ...media1,
+                        location
+                    });
                 }
-                playlist.medias.push(media1);
-
-                const location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://','')}&hlc=1&spv=0`;
-                playlist2.medias.push({
-                    ...media1,
-                    location
-                });
             }
         }
         bar1.increment();
