@@ -1,6 +1,20 @@
 #EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
 #EXTINF:-1 tvg-id="kvartal-tv",Квартал ТВ
 http://195.189.60.181:312/456/index.m3u8
+#EXTINF:-1 tvg-id="hollywood-hd",Hollywood HD
+http://78.26.128.16:8081/406/index.m3u8
+#EXTINF:-1 tvg-id="1plus1",1+1
+http://91.146.94.234:10001/play/a04i
+#EXTINF:-1 tvg-id="2plus2",2+2
+http://91.146.94.234:10001/play/a04r
+#EXTINF:-1 tvg-id="novy-kanal-ua",Новий канал
+http://91.146.94.234:10001/play/a04o
+#EXTINF:-1 tvg-id="xsport-ua",Xsport
+ http://91.146.94.234:10001/play/a059
+#EXTINF:-1 tvg-id="discovery-science",Discovery Science
+http://91.146.94.234:10001/play/a03q
+#EXTINF:-1 tvg-id="eurosport2",Eurosport 2
+http://91.146.94.234:10001/play/a05c
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
 acestream://3c679a39456838ea8abc77b288c95df2b7a3f45d
 #EXTINF:-1 tvg-id="bcu-catastrophe",BCU Catastrophe HD
@@ -93,8 +107,6 @@ acestream://b6baa046075d82da300fc1b16de96067a8b9540e
 acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 #EXTINF:-1 tvg-id="footbolny",Футбольный HD
 acestream://92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
-#EXTINF:-1 tvg-id="2na2",2x2 HD
-acestream://511bedfb71a5b34877ce6eb6039100c7b89a73a4
 #EXTINF:-1 tvg-id="2na2",2x2
 acestream://ae0290d2b26b326c76a6842c1f62b643e29a6801
 #EXTINF:-1 tvg-id="sony-tv",.red
