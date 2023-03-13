@@ -1,16 +1,6 @@
 #EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
 #EXTINF:-1 tvg-id="kvartal-tv",Квартал ТВ
 http://195.189.60.181:312/456/index.m3u8
-#EXTINF:-1 tvg-id="tv1000-action-cee",Viasat Kino Action
-http://195.189.60.181:312/123/index.m3u8
-#EXTINF:-1 tvg-id="tv1000-worldkino",Viasat Kino World
-http://195.189.60.181:312/40/index.m3u8
-#EXTINF:-1 tvg-id="tv1000-cee",Viasat Kino
-http://195.189.60.181:312/39/index.m3u8
-#EXTINF:-1 tvg-id="vip-comedy-cee",Viasat Kino Comedy
-http://195.189.60.181:312/454/index.m3u8
-#EXTINF:-1 tvg-id="vip-megahit-cee",Viasat Kino Megahit
-http://195.189.60.181:312/224/index.m3u8
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
 acestream://3c679a39456838ea8abc77b288c95df2b7a3f45d
 #EXTINF:-1 tvg-id="bcu-catastrophe",BCU Catastrophe HD
@@ -147,8 +137,6 @@ acestream://5680521f0e507f2c6f55f3de8dd79351615116c5
 acestream://42fe2ce3ef6b92653a74d85b6e98c2ba0abee707
 #EXTINF:-1 tvg-id="setanta-sports-plus",Setanta Live 2
 acestream://f6d68cfa8694f814983f2a5757f4e0c4964b880c
-#EXTINF:-1 tvg-id="setanta-ua",Setanta Sports Ukraine HD
-acestream://0528a1cecd81efd3ec72f49bd32fa847bc924abf
 #EXTINF:-1 tvg-id="shokiruyushchee-hd",Шокирующее HD
 acestream://a4d2d63c562696b5ef7731efb7c2df74d9183700
 #EXTINF:-1 tvg-id="domkino",Дом кино
