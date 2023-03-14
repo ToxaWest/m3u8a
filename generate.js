@@ -10,6 +10,7 @@ const parseSearch = [
     'BCU',
     'amedia',
     'tv1000',
+    'Hollywood',
     'футбол',
     '2x2',
     '.red',

@@ -11,6 +11,8 @@ http://91.146.94.234:10001/play/a04i
 http://91.146.94.234:10001/play/a04r
 #EXTINF:-1 tvg-id="2na2",2x2
 http://127.0.0.1:6878/ace/getstream?id=ae0290d2b26b326c76a6842c1f62b643e29a6801&hlc=1&spv=0
+#EXTINF:-1 tvg-id="2na2",2x2 HD
+http://127.0.0.1:6878/ace/getstream?id=511bedfb71a5b34877ce6eb6039100c7b89a73a4&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia1",Amedia 1
 http://127.0.0.1:6878/ace/getstream?id=5b1f4a0fb8abc134de4692179b55e4008f0e5e82&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia2",Amedia 2
@@ -91,8 +93,6 @@ http://127.0.0.1:6878/ace/getstream?id=00d0649880b17050d8a9ed559fc824f98fd578be&
 http://127.0.0.1:6878/ace/getstream?id=21f0299cce733ec3a481135553de468440b3630f&hlc=1&spv=0
 #EXTINF:-1 tvg-id="cineman-rukino",CineMan РуКино
 http://127.0.0.1:6878/ace/getstream?id=51a8548ddcff18ba9f89c4c4cb6eb359fc24b30b&hlc=1&spv=0
-#EXTINF:-1 tvg-id="discovery-science",Discovery Science
-http://91.146.94.234:10001/play/a03q
 #EXTINF:-1 tvg-id="eurosport2",Eurosport 2
 http://91.146.94.234:10001/play/a05c
 #EXTINF:-1 tvg-id="fox",FOX HD
@@ -108,7 +108,7 @@ http://127.0.0.1:6878/ace/getstream?id=8fb7f8107213a9020f298c8d0068ea86d0713d01&
 #EXTINF:-1 tvg-id="foxlife",Fox Life HD
 http://127.0.0.1:6878/ace/getstream?id=36bd5c1fdf09e5e92aa68cc642ae2d4db6694526&hlc=1&spv=0
 #EXTINF:-1 tvg-id="hollywood-hd",Hollywood HD
-http://78.26.128.16:8081/406/index.m3u8
+http://127.0.0.1:6878/ace/getstream?id=3cacfef48b11ea2a81282c4b49b3eac4d7cce501&hlc=1&spv=0
 #EXTINF:-1 tvg-id="paramount-network-pl",Paramount Channel HD [PL]
 http://127.0.0.1:6878/ace/getstream?id=c9249bb68bf6219d56eb5a3f8c77ce580be60432&hlc=1&spv=0
 #EXTINF:-1 tvg-id="paramount-comedy",Paramount Comedy Russia

@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
 #EXTINF:-1 tvg-id="kvartal-tv",Квартал ТВ
 http://195.189.60.181:312/456/index.m3u8
-#EXTINF:-1 tvg-id="hollywood-hd",Hollywood HD
-http://78.26.128.16:8081/406/index.m3u8
 #EXTINF:-1 tvg-id="1plus1",1+1
 http://91.146.94.234:10001/play/a04i
 #EXTINF:-1 tvg-id="2plus2",2+2
@@ -11,8 +9,6 @@ http://91.146.94.234:10001/play/a04r
 http://91.146.94.234:10001/play/a04o
 #EXTINF:-1 tvg-id="xsport-ua",Xsport
  http://91.146.94.234:10001/play/a059
-#EXTINF:-1 tvg-id="discovery-science",Discovery Science
-http://91.146.94.234:10001/play/a03q
 #EXTINF:-1 tvg-id="eurosport2",Eurosport 2
 http://91.146.94.234:10001/play/a05c
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
@@ -97,6 +93,8 @@ acestream://f8d38c09a74612b9fabf0206cbd28bc11d6bc27d
 acestream://ae0d6d703ef80198263a1a868740cf059eac4e9e
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino",TV1000 Русское кино
 acestream://af4baf7f76a3057eeea815c90747860e9fec488a
+#EXTINF:-1 tvg-id="hollywood-hd",Hollywood HD
+acestream://3cacfef48b11ea2a81282c4b49b3eac4d7cce501
 #EXTINF:-1 tvg-id="match-football1",Матч! Футбол 1 ( original )
 acestream://b28db77c5084da7993395d77df96c30bb134f0a9
 #EXTINF:-1 tvg-id="match-football2",Матч! Футбол 2 ( original )
@@ -107,6 +105,8 @@ acestream://b6baa046075d82da300fc1b16de96067a8b9540e
 acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 #EXTINF:-1 tvg-id="footbolny",Футбольный HD
 acestream://92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
+#EXTINF:-1 tvg-id="2na2",2x2 HD
+acestream://511bedfb71a5b34877ce6eb6039100c7b89a73a4
 #EXTINF:-1 tvg-id="2na2",2x2
 acestream://ae0290d2b26b326c76a6842c1f62b643e29a6801
 #EXTINF:-1 tvg-id="sony-tv",.red

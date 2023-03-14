@@ -5,11 +5,6 @@
     "url": "http://195.189.60.181:312/456/index.m3u8"
   },
   {
-    "name": "Hollywood HD",
-    "id": "hollywood-hd",
-    "url": "http://78.26.128.16:8081/406/index.m3u8"
-  },
-  {
     "name": "1+1",
     "id": "1plus1",
     "url": "http://91.146.94.234:10001/play/a04i"
@@ -28,11 +23,6 @@
     "name": "Xsport",
     "id": "xsport-ua",
     "url": " http://91.146.94.234:10001/play/a059"
-  },
-  {
-    "name": "Discovery Science",
-    "id": "discovery-science",
-    "url": "http://91.146.94.234:10001/play/a03q"
   },
   {
     "name": "Eurosport 2",
