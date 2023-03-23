@@ -22,7 +22,14 @@ const parseSearch = [
     'paramount',
     'setanta',
     'Шокирующее',
-    'кино'
+    'кино',
+    'eurosport 2'
+]
+
+const disabled = [
+    '[PL]',
+    '[DE]',
+    '[US]'
 ]
 
 const unstable = [
@@ -49,30 +56,35 @@ module.exports = (async () => {
             const url = result[0].match(/href="(.*?)"/)[1];
             const title = result[0].match(/>(.*?)</)[1]
                 .replace('[RU]', '').trim();
-            if (result[0].indexOf('<small>') !== -1 || unstable.some(a => a === title)) {
-                if(!playlist.medias.some(({name}) => name === title)){
-                    const media1 = new M3uMedia(url);
-                    media1.name = title;
-                    if (mapId[title]) {
-                        media1.attributes = {"tvg-id": mapId[title]}
-                    } else {
-                        mapId[title] = '';
+            if (!disabled.some(a => title.indexOf(a) !== -1)) {
+
+                if (result[0].indexOf('<small>') !== -1 || unstable.some(a => a === title)) {
+                    if (!playlist.medias.some(({name}) => name === title)) {
+                        const media1 = new M3uMedia(url);
+                        media1.name = title;
+                        if (mapId[title]) {
+                            media1.attributes = {"tvg-id": mapId[title]}
+                        } else {
+                            mapId[title] = '';
+                        }
+                        playlist.medias.push(media1);
+                        const location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://', '')}&hlc=1&spv=0`;
+                        playlist2.medias.push({
+                            ...media1,
+                            location
+                        });
                     }
-                    playlist.medias.push(media1);
-                    const location = `http://127.0.0.1:6878/ace/getstream?id=${url.replace('acestream://','')}&hlc=1&spv=0`;
-                    playlist2.medias.push({
-                        ...media1,
-                        location
-                    });
                 }
+
             }
+
         }
         bar1.increment();
     }
 
     bar1.stop();
 
-    playlist2.medias.sort((a,b) => a.name < b.name ? -1 : 1);
+    playlist2.medias.sort((a, b) => a.name < b.name ? -1 : 1);
 
     fs.writeFileSync(path.join(__dirname, './epgMap.json'), JSON.stringify(mapId))
     fs.writeFileSync(path.join(__dirname, '/acestream2.m3u'), playlist2.getM3uString()

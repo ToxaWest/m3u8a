@@ -23,10 +23,5 @@
     "name": "Xsport",
     "id": "xsport-ua",
     "url": " http://91.146.94.234:10001/play/a059"
-  },
-  {
-    "name": "Eurosport 2",
-    "id": "eurosport2",
-    "url": "http://91.146.94.234:10001/play/a05c"
   }
 ]
