@@ -111,6 +111,8 @@ http://127.0.0.1:6878/ace/getstream?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c&
 http://127.0.0.1:6878/ace/getstream?id=ae0d6d703ef80198263a1a868740cf059eac4e9e&hlc=1&spv=0
 #EXTINF:-1 tvg-id="tv1000-action",TV1000 Action
 http://127.0.0.1:6878/ace/getstream?id=05a7dd3bf60e16ed1674cb437e1e00084392285e&hlc=1&spv=0
+#EXTINF:-1 tvg-id="tv1000-worldkino",TV1000 World Kino
+http://127.0.0.1:6878/ace/getstream?id=f8d38c09a74612b9fabf0206cbd28bc11d6bc27d&hlc=1&spv=0
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino",TV1000 Русское кино
 http://127.0.0.1:6878/ace/getstream?id=af4baf7f76a3057eeea815c90747860e9fec488a&hlc=1&spv=0
 #EXTINF:-1 tvg-id="vip-comedy",VIP Comedy
