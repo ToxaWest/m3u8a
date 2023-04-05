@@ -103,6 +103,8 @@ acestream://b6baa046075d82da300fc1b16de96067a8b9540e
 acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 #EXTINF:-1 tvg-id="footbolny",Футбольный HD
 acestream://92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
+#EXTINF:-1 tvg-id="2na2",2x2 HD
+acestream://511bedfb71a5b34877ce6eb6039100c7b89a73a4
 #EXTINF:-1 tvg-id="2na2",2x2
 acestream://ae0290d2b26b326c76a6842c1f62b643e29a6801
 #EXTINF:-1 tvg-id="sony-tv",.red
@@ -153,8 +155,6 @@ acestream://f5302ed56cf6af61378b2527524398558d9cddde
 acestream://f4fbf1c1f58b77f1343675b0aeb7b1c22feebbbd
 #EXTINF:-1 tvg-id="kinosat",КиноСат
 acestream://b2314014f5b3c51ed75dc5066260b5134fa4d5a6
-#EXTINF:-1 tvg-id="kinojam1",Киноджем 1 HD
-acestream://6f59144864d644ee3f53fddef7db2c2f69255c2e
 #EXTINF:-1 tvg-id="kineko",Кинозал 1
 acestream://6c6849a17243f967d0c6f04323af9dfde161c3f2
 #EXTINF:-1 tvg-id="kinokomedia",Кинокомедия
