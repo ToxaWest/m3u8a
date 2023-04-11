@@ -155,6 +155,8 @@ acestream://f5302ed56cf6af61378b2527524398558d9cddde
 acestream://f4fbf1c1f58b77f1343675b0aeb7b1c22feebbbd
 #EXTINF:-1 tvg-id="kinosat",КиноСат
 acestream://b2314014f5b3c51ed75dc5066260b5134fa4d5a6
+#EXTINF:-1 tvg-id="kinojam1",Киноджем 1 HD
+acestream://6f59144864d644ee3f53fddef7db2c2f69255c2e
 #EXTINF:-1 tvg-id="kineko",Кинозал 1
 acestream://6c6849a17243f967d0c6f04323af9dfde161c3f2
 #EXTINF:-1 tvg-id="kinokomedia",Кинокомедия

@@ -143,6 +143,8 @@ http://127.0.0.1:6878/ace/getstream?id=f4fbf1c1f58b77f1343675b0aeb7b1c22feebbbd&
 http://195.189.60.181:312/456/index.m3u8
 #EXTINF:-1 tvg-id="kinosat",КиноСат
 http://127.0.0.1:6878/ace/getstream?id=b2314014f5b3c51ed75dc5066260b5134fa4d5a6&hlc=1&spv=0
+#EXTINF:-1 tvg-id="kinojam1",Киноджем 1 HD
+http://127.0.0.1:6878/ace/getstream?id=6f59144864d644ee3f53fddef7db2c2f69255c2e&hlc=1&spv=0
 #EXTINF:-1 tvg-id="kineko",Кинозал 1
 http://127.0.0.1:6878/ace/getstream?id=6c6849a17243f967d0c6f04323af9dfde161c3f2&hlc=1&spv=0
 #EXTINF:-1 tvg-id="kinokomedia",Кинокомедия
