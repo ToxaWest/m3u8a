@@ -8,7 +8,9 @@ http://91.146.94.234:10001/play/a04r
 #EXTINF:-1 tvg-id="novy-kanal-ua",Новий канал
 http://91.146.94.234:10001/play/a04o
 #EXTINF:-1 tvg-id="xsport-ua",Xsport
- http://91.146.94.234:10001/play/a059
+http://91.146.94.234:10001/play/a059
+#EXTINF:-1 tvg-id="",BT Sport 1 HD
+http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
 acestream://3c679a39456838ea8abc77b288c95df2b7a3f45d
 #EXTINF:-1 tvg-id="bcu-catastrophe",BCU Catastrophe HD
@@ -137,6 +139,8 @@ acestream://5680521f0e507f2c6f55f3de8dd79351615116c5
 acestream://42fe2ce3ef6b92653a74d85b6e98c2ba0abee707
 #EXTINF:-1 tvg-id="setanta-sports-plus",Setanta Live 2
 acestream://f6d68cfa8694f814983f2a5757f4e0c4964b880c
+#EXTINF:-1 tvg-id="setanta-ua",Setanta Sports Ukraine HD
+acestream://0528a1cecd81efd3ec72f49bd32fa847bc924abf
 #EXTINF:-1 tvg-id="shokiruyushchee-hd",Шокирующее HD
 acestream://a4d2d63c562696b5ef7731efb7c2df74d9183700
 #EXTINF:-1 tvg-id="domkino",Дом кино

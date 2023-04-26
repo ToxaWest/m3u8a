@@ -22,6 +22,11 @@
   {
     "name": "Xsport",
     "id": "xsport-ua",
-    "url": " http://91.146.94.234:10001/play/a059"
+    "url": "http://91.146.94.234:10001/play/a059"
+  },
+  {
+    "name": "BT Sport 1 HD",
+    "id": "",
+    "url": "http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&hlc=1&spv=0"
   }
 ]
