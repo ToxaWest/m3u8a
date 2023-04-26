@@ -9,7 +9,7 @@ http://91.146.94.234:10001/play/a04r
 http://91.146.94.234:10001/play/a04o
 #EXTINF:-1 tvg-id="xsport-ua",Xsport
 http://91.146.94.234:10001/play/a059
-#EXTINF:-1 tvg-id="",BT Sport 1 HD
+#EXTINF:-1 tvg-id="bt-sport1",BT Sport 1 HD
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
 acestream://3c679a39456838ea8abc77b288c95df2b7a3f45d

@@ -87,7 +87,7 @@ http://127.0.0.1:6878/ace/getstream?id=8bff31504247530c1be06395c11c38ecd1895964&
 http://127.0.0.1:6878/ace/getstream?id=62f68471bab075eb96e5db4559e7994427db111b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-svaty",BCU Сваты HD
 http://127.0.0.1:6878/ace/getstream?id=5cea434c891d27aa66d87d3b23d91ab74c1c72f8&hlc=1&spv=0
-#EXTINF:-1 tvg-id="",BT Sport 1 HD
+#EXTINF:-1 tvg-id="bt-sport1",BT Sport 1 HD
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="cineman",CineMan
 http://127.0.0.1:6878/ace/getstream?id=00d0649880b17050d8a9ed559fc824f98fd578be&hlc=1&spv=0

@@ -26,7 +26,7 @@
   },
   {
     "name": "BT Sport 1 HD",
-    "id": "",
+    "id": "bt-sport1",
     "url": "http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&hlc=1&spv=0"
   }
 ]
