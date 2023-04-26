@@ -95,6 +95,10 @@ http://127.0.0.1:6878/ace/getstream?id=00d0649880b17050d8a9ed559fc824f98fd578be&
 http://127.0.0.1:6878/ace/getstream?id=21f0299cce733ec3a481135553de468440b3630f&hlc=1&spv=0
 #EXTINF:-1 tvg-id="cineman-rukino",CineMan РуКино
 http://127.0.0.1:6878/ace/getstream?id=51a8548ddcff18ba9f89c4c4cb6eb359fc24b30b&hlc=1&spv=0
+#EXTINF:-1 tvg-id="",Dzan 1 HD
+http://127.0.0.1:6878/ace/getstream?id=47c6e8dadfba2b3bd013feecf4194ecceec428cd&hlc=1&spv=0
+#EXTINF:-1 tvg-id="eleven-sports-1",Eleven Sport 1 HD
+http://127.0.0.1:6878/ace/getstream?id=36cad67fed5a739757a9db844a551aa845a8d51b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="eurosport2",Eurosport 2 HD
 http://127.0.0.1:6878/ace/getstream?id=6176281b9c46a5621a0e88524f8dc621f173b8e0&hlc=1&spv=0
 #EXTINF:-1 tvg-id="fox",FOX HD
