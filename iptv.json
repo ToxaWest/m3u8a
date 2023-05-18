@@ -38,5 +38,10 @@
     "name": "Dzan 1 HD",
     "id": "",
     "url": "http://127.0.0.1:6878/ace/getstream?id=47c6e8dadfba2b3bd013feecf4194ecceec428cd&hlc=1&spv=0"
+  },
+    {
+    "name": "Матч! HD",
+    "id": "match-tv",
+    "url": "http://127.0.0.1:6878/ace/getstream?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2&hlc=1&spv=0"
   }
 ]
