@@ -1,14 +1,6 @@
 #EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
-#EXTINF:-1 tvg-id="kvartal-tv",Квартал ТВ
-http://195.189.60.181:312/456/index.m3u8
-#EXTINF:-1 tvg-id="1plus1",1+1
-http://91.146.94.234:10001/play/a04i
-#EXTINF:-1 tvg-id="2plus2",2+2
-http://91.146.94.234:10001/play/a04r
 #EXTINF:-1 tvg-id="novy-kanal-ua",Новий канал
-http://91.146.94.234:10001/play/a04o
-#EXTINF:-1 tvg-id="xsport-ua",Xsport
-http://91.146.94.234:10001/play/a059
+http://127.0.0.1:6878/ace/getstream?id=ce6bb638571f69ca8ac2e612dbeae336c629e3f5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bt-sport1",BT Sport 1 HD
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="eleven-sports-1",Eleven Sport 1 HD

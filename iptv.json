@@ -1,28 +1,8 @@
 [
   {
-    "name": "Квартал ТВ",
-    "id": "kvartal-tv",
-    "url": "http://195.189.60.181:312/456/index.m3u8"
-  },
-  {
-    "name": "1+1",
-    "id": "1plus1",
-    "url": "http://91.146.94.234:10001/play/a04i"
-  },
-  {
-    "name": "2+2",
-    "id": "2plus2",
-    "url": "http://91.146.94.234:10001/play/a04r"
-  },
-  {
     "name": "Новий канал",
     "id": "novy-kanal-ua",
-    "url": "http://91.146.94.234:10001/play/a04o"
-  },
-  {
-    "name": "Xsport",
-    "id": "xsport-ua",
-    "url": "http://91.146.94.234:10001/play/a059"
+    "url": "http://127.0.0.1:6878/ace/getstream?id=ce6bb638571f69ca8ac2e612dbeae336c629e3f5&hlc=1&spv=0"
   },
   {
     "name": "BT Sport 1 HD",

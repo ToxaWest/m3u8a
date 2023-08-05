@@ -5,10 +5,6 @@ http://127.0.0.1:6878/ace/getstream?id=d67f201bfdc47d376b6195d50a3ac3ee231a92a5&
 http://127.0.0.1:6878/ace/getstream?id=e5546c985741ec758b39030c59ade2f3a311a06e&hlc=1&spv=0
 #EXTINF:-1 tvg-id="sony-scifi",.sci-fi
 http://127.0.0.1:6878/ace/getstream?id=ed6a12719fbc9c9b38c2ce69c065a84f3a9b42e6&hlc=1&spv=0
-#EXTINF:-1 tvg-id="1plus1",1+1
-http://91.146.94.234:10001/play/a04i
-#EXTINF:-1 tvg-id="2plus2",2+2
-http://91.146.94.234:10001/play/a04r
 #EXTINF:-1 tvg-id="2na2",2x2
 http://127.0.0.1:6878/ace/getstream?id=ae0290d2b26b326c76a6842c1f62b643e29a6801&hlc=1&spv=0
 #EXTINF:-1 tvg-id="2na2",2x2 HD
@@ -131,8 +127,6 @@ http://127.0.0.1:6878/ace/getstream?id=d83992b759e6227f7cc9a20e4e4dae1b58e645c8&
 http://127.0.0.1:6878/ace/getstream?id=dc939e7815f47c5db59bd3e9fe4bb61ddecc45a5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="vip-serial",VIP Serial
 http://127.0.0.1:6878/ace/getstream?id=d13dd140058b7a528959e2b709aca4111b7cc076&hlc=1&spv=0
-#EXTINF:-1 tvg-id="xsport-ua",Xsport
-http://91.146.94.234:10001/play/a059
 #EXTINF:-1 tvg-id="domkino",Дом кино
 http://127.0.0.1:6878/ace/getstream?id=4403739564a9b19055786e9844ea48147b3f930b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="domkino-premium",Дом кино премиум HD
@@ -147,8 +141,6 @@ http://127.0.0.1:6878/ace/getstream?id=aeb66589dcdbf45061b76eb52ed29ea8297e8e21&
 http://127.0.0.1:6878/ace/getstream?id=f5302ed56cf6af61378b2527524398558d9cddde&hlc=1&spv=0
 #EXTINF:-1 tvg-id="kinoseria",КИНОСЕРИЯ
 http://127.0.0.1:6878/ace/getstream?id=f4fbf1c1f58b77f1343675b0aeb7b1c22feebbbd&hlc=1&spv=0
-#EXTINF:-1 tvg-id="kvartal-tv",Квартал ТВ
-http://195.189.60.181:312/456/index.m3u8
 #EXTINF:-1 tvg-id="kinosat",КиноСат
 http://127.0.0.1:6878/ace/getstream?id=b2314014f5b3c51ed75dc5066260b5134fa4d5a6&hlc=1&spv=0
 #EXTINF:-1 tvg-id="kinojam1",Киноджем 1 HD
@@ -184,7 +176,7 @@ http://127.0.0.1:6878/ace/getstream?id=ea3446c59eb4f6083c98a73e367b262e7e89c6ed&
 #EXTINF:-1 tvg-id="nashe-novoe-kino",Наше новое кино
 http://127.0.0.1:6878/ace/getstream?id=ae38625cca3cae6873509ba05b99aa1af5ec0f4e&hlc=1&spv=0
 #EXTINF:-1 tvg-id="novy-kanal-ua",Новий канал
-http://91.146.94.234:10001/play/a04o
+http://127.0.0.1:6878/ace/getstream?id=ce6bb638571f69ca8ac2e612dbeae336c629e3f5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="okino",О!Кино
 http://127.0.0.1:6878/ace/getstream?id=79fc325adef8b1977b790c8435ff868cb6f75794&hlc=1&spv=0
 #EXTINF:-1 tvg-id="rodnoe-kino",Родное кино
