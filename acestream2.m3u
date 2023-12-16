@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/EPG_NOARCH"
+#EXTM3U url-tvg="https://iptvx.one/EPG"
 #EXTINF:-1 tvg-id="sony-turbo",.black
 http://127.0.0.1:6878/ace/getstream?id=d67f201bfdc47d376b6195d50a3ac3ee231a92a5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="sony-tv",.red
