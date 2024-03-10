@@ -7,8 +7,6 @@ http://127.0.0.1:6878/ace/getstream?id=e5546c985741ec758b39030c59ade2f3a311a06e&
 http://127.0.0.1:6878/ace/getstream?id=ed6a12719fbc9c9b38c2ce69c065a84f3a9b42e6&hlc=1&spv=0
 #EXTINF:-1 tvg-id="2na2",2x2
 http://127.0.0.1:6878/ace/getstream?id=ae0290d2b26b326c76a6842c1f62b643e29a6801&hlc=1&spv=0
-#EXTINF:-1 tvg-id="2na2",2x2 HD
-http://127.0.0.1:6878/ace/getstream?id=511bedfb71a5b34877ce6eb6039100c7b89a73a4&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia1",Amedia 1
 http://127.0.0.1:6878/ace/getstream?id=5b1f4a0fb8abc134de4692179b55e4008f0e5e82&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia2",Amedia 2

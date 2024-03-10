@@ -7,6 +7,8 @@ http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&
 http://127.0.0.1:6878/ace/getstream?id=36cad67fed5a739757a9db844a551aa845a8d51b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="",Dzan 1 HD
 http://127.0.0.1:6878/ace/getstream?id=47c6e8dadfba2b3bd013feecf4194ecceec428cd&hlc=1&spv=0
+#EXTINF:-1 tvg-id="match-tv",Матч! HD
+http://127.0.0.1:6878/ace/getstream?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
 acestream://3c679a39456838ea8abc77b288c95df2b7a3f45d
 #EXTINF:-1 tvg-id="bcu-catastrophe",BCU Catastrophe HD
@@ -101,8 +103,6 @@ acestream://b6baa046075d82da300fc1b16de96067a8b9540e
 acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 #EXTINF:-1 tvg-id="footbolny",Футбольный HD
 acestream://92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
-#EXTINF:-1 tvg-id="2na2",2x2 HD
-acestream://511bedfb71a5b34877ce6eb6039100c7b89a73a4
 #EXTINF:-1 tvg-id="2na2",2x2
 acestream://ae0290d2b26b326c76a6842c1f62b643e29a6801
 #EXTINF:-1 tvg-id="sony-tv",.red
