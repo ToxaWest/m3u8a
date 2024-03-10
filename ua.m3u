@@ -1,0 +1,5 @@
+#EXTM3U url-tvg="https://iptvx.one/EPG"
+#EXTINF:-1 tvg-id="paramount-comedy-ua",.Comedy Central Україна
+https://live-k2312-kbp.1plus1.video/live/1709486101/k5EpIjaPrhyicNtNBtcRoQ/s-paramount-comedy/smil:s-paramount-comedy.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="bigudi",.Bigudi
+https://live-k2311-kbp.1plus1.video/live/1709486262/ZJbGp0UyKNwChnQN13muzQ/335987/smil:335987.smil/playlist.m3u8
