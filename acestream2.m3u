@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/EPG"
+#EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
 #EXTINF:-1 tvg-id="sony-turbo",.black
 http://127.0.0.1:6878/ace/getstream?id=d67f201bfdc47d376b6195d50a3ac3ee231a92a5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="sony-tv",.red
@@ -7,12 +7,8 @@ http://127.0.0.1:6878/ace/getstream?id=e5546c985741ec758b39030c59ade2f3a311a06e&
 http://127.0.0.1:6878/ace/getstream?id=ed6a12719fbc9c9b38c2ce69c065a84f3a9b42e6&hlc=1&spv=0
 #EXTINF:-1 tvg-id="2na2",2x2
 http://127.0.0.1:6878/ace/getstream?id=ae0290d2b26b326c76a6842c1f62b643e29a6801&hlc=1&spv=0
-#EXTINF:-1 tvg-id="amedia1",Amedia 1
-http://127.0.0.1:6878/ace/getstream?id=5b1f4a0fb8abc134de4692179b55e4008f0e5e82&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia2",Amedia 2
 http://127.0.0.1:6878/ace/getstream?id=bfb6b4b7809b0852e6c2ce6fdfa60794dcc089ac&hlc=1&spv=0
-#EXTINF:-1 tvg-id="amedia-hit",Amedia Hit
-http://127.0.0.1:6878/ace/getstream?id=1b74777f3b2121d067457fc554beb5e1c26b6cd8&hlc=1&spv=0
 #EXTINF:-1 tvg-id="amedia-premium",Amedia premium HD
 http://127.0.0.1:6878/ace/getstream?id=5988dc4ef60bf2f77939026578ac80771f2938c2&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-action",BCU Action HD
@@ -23,14 +19,8 @@ http://127.0.0.1:6878/ace/getstream?id=07d24566226c5851b9c3a3235e3451854d6baeac&
 http://127.0.0.1:6878/ace/getstream?id=ed699504c5010cab9046530306960e998a92f5e6&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-cinemaplus",BCU Cinema+ HD
 http://127.0.0.1:6878/ace/getstream?id=4d6232def7e751c47eb44a017021055e8362b54a&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-comedy",BCU Comedy HD
-http://127.0.0.1:6878/ace/getstream?id=5c878afe25deb6a7f1cfe198df39d5a073af4134&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-cosmo",BCU Cosmo HD
-http://127.0.0.1:6878/ace/getstream?id=41e81ad4d12bf52b23e58c4c3fda62bc8ba1bbb5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-criminal",BCU Criminal HD
 http://127.0.0.1:6878/ace/getstream?id=ddb42884acd341255390cda62387b5a42d8c2180&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-fantastic",BCU Fantastic HD
-http://127.0.0.1:6878/ace/getstream?id=2d04b4c1391b16a4995e7b7fe74833d6c9d850ac&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-filmystic",BCU Filmystic HD
 http://127.0.0.1:6878/ace/getstream?id=2814982beb7bb4bd74ad2f8c721ba4bcf7e93a04&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-history",BCU History HD
@@ -41,44 +31,30 @@ http://127.0.0.1:6878/ace/getstream?id=c3aa52aab6bd48c3b79189410fbf716f2e4dd293&
 http://127.0.0.1:6878/ace/getstream?id=535b288408b7c671bb1d5c292dd64beadf556ab9&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-kids-plus",BCU Kids+ HD
 http://127.0.0.1:6878/ace/getstream?id=e2db1c6451aeff66756ae166cf507a0b2743b69a&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-kinorating",BCU Kinorating HD
-http://127.0.0.1:6878/ace/getstream?id=57401c50a256f68da4bc9ebe9965e2f12a9d20e2&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-media",BCU Kinozakaz HD
 http://127.0.0.1:6878/ace/getstream?id=9cd5a5ee3d83b36cd5dd36dbc912e37531df482b&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-marvel",BCU Marvel HD
-http://127.0.0.1:6878/ace/getstream?id=bbb0e5dbb5f0059de7b9ffc0cbcd1f9728449fd7&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-premiere",BCU Premiere HD
 http://127.0.0.1:6878/ace/getstream?id=52b5bbf1d3a9640f8a186e848f021bfc3daf1154&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-premiere-4k",BCU Premiere Ultra 4K
 http://127.0.0.1:6878/ace/getstream?id=30b1dba65edffa2c0c8ade75257508b00d8a61ea&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-reality",BCU Reality HD
 http://127.0.0.1:6878/ace/getstream?id=22da1ac893c3daf4035261c84e828c8020648187&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-ruserial",BCU Ruserial HD
-http://127.0.0.1:6878/ace/getstream?id=49552fcef0397a9f48f7520247ee414a085f61e2&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-russian",BCU Russian HD
 http://127.0.0.1:6878/ace/getstream?id=5e38456d774827e7312b7eabdde388532a3dfec9&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-stars",BCU Stars HD
 http://127.0.0.1:6878/ace/getstream?id=05fe94b726e99b1dd548013bd281980f9f27b617&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-survival",BCU Survival HD
 http://127.0.0.1:6878/ace/getstream?id=7222fcd5c4efe1f4beee535acac83fc195bc51d3&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-trumotion",BCU TruMotion HD
-http://127.0.0.1:6878/ace/getstream?id=1d316bb0fd6a7741ac8c9a8972b6710e71d84791&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-ultra4k",BCU Ultra 4K
 http://127.0.0.1:6878/ace/getstream?id=6c82a952053419ef358907fc2fc52151626be0b7&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-vhs",BCU VHS HD
-http://127.0.0.1:6878/ace/getstream?id=5752b846dab618e12a0a1541ad6573a81ae1265d&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-kinozal-prem-1",BCU Кинозал Premiere 1 HD
 http://127.0.0.1:6878/ace/getstream?id=122b81e6c37b49a37c3b1984efaf5626371d5df5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-kinozal-prem-2",BCU Кинозал Premiere 2 HD
 http://127.0.0.1:6878/ace/getstream?id=d488e696aba7b6a2d3a8977d762bcf4eee1bfd07&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-kinozal-prem-3",BCU Кинозал Premiere 3 HD
-http://127.0.0.1:6878/ace/getstream?id=ffa797e65b8307a13b2805284e28295884c7e7e1&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-sssr",BCU Кинозал СССР HD
 http://127.0.0.1:6878/ace/getstream?id=59623cb797c031a5aa4922eb219851547cb346b0&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-multserial",BCU Мультсериал
 http://127.0.0.1:6878/ace/getstream?id=8bff31504247530c1be06395c11c38ecd1895964&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-romantic",BCU Романтика HD
-http://127.0.0.1:6878/ace/getstream?id=62f68471bab075eb96e5db4559e7994427db111b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bcu-svaty",BCU Сваты HD
 http://127.0.0.1:6878/ace/getstream?id=5cea434c891d27aa66d87d3b23d91ab74c1c72f8&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bt-sport1",BT Sport 1 HD
@@ -87,8 +63,6 @@ http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&
 http://127.0.0.1:6878/ace/getstream?id=00d0649880b17050d8a9ed559fc824f98fd578be&hlc=1&spv=0
 #EXTINF:-1 tvg-id="cineman-top",CineMan Top
 http://127.0.0.1:6878/ace/getstream?id=21f0299cce733ec3a481135553de468440b3630f&hlc=1&spv=0
-#EXTINF:-1 tvg-id="cineman-rukino",CineMan РуКино
-http://127.0.0.1:6878/ace/getstream?id=51a8548ddcff18ba9f89c4c4cb6eb359fc24b30b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="",Dzan 1 HD
 http://127.0.0.1:6878/ace/getstream?id=47c6e8dadfba2b3bd013feecf4194ecceec428cd&hlc=1&spv=0
 #EXTINF:-1 tvg-id="eleven-sports-1",Eleven Sport 1 HD
@@ -107,10 +81,6 @@ http://127.0.0.1:6878/ace/getstream?id=5680521f0e507f2c6f55f3de8dd79351615116c5&
 http://127.0.0.1:6878/ace/getstream?id=42fe2ce3ef6b92653a74d85b6e98c2ba0abee707&hlc=1&spv=0
 #EXTINF:-1 tvg-id="setanta-sports-plus",Setanta Live 2
 http://127.0.0.1:6878/ace/getstream?id=f6d68cfa8694f814983f2a5757f4e0c4964b880c&hlc=1&spv=0
-#EXTINF:-1 tvg-id="setanta-ua",Setanta Sports Ukraine HD
-http://127.0.0.1:6878/ace/getstream?id=0528a1cecd81efd3ec72f49bd32fa847bc924abf&hlc=1&spv=0
-#EXTINF:-1 tvg-id="tv1000",TV1000
-http://127.0.0.1:6878/ace/getstream?id=ae0d6d703ef80198263a1a868740cf059eac4e9e&hlc=1&spv=0
 #EXTINF:-1 tvg-id="tv1000-action",TV1000 Action
 http://127.0.0.1:6878/ace/getstream?id=05a7dd3bf60e16ed1674cb437e1e00084392285e&hlc=1&spv=0
 #EXTINF:-1 tvg-id="tv1000-worldkino",TV1000 World Kino
@@ -121,8 +91,6 @@ http://127.0.0.1:6878/ace/getstream?id=af4baf7f76a3057eeea815c90747860e9fec488a&
 http://127.0.0.1:6878/ace/getstream?id=8c7b8be6682d84e033352724243719378c3e1540&hlc=1&spv=0
 #EXTINF:-1 tvg-id="vip-megahit",VIP Megahit
 http://127.0.0.1:6878/ace/getstream?id=d83992b759e6227f7cc9a20e4e4dae1b58e645c8&hlc=1&spv=0
-#EXTINF:-1 tvg-id="vip-premiere",VIP Premiere
-http://127.0.0.1:6878/ace/getstream?id=dc939e7815f47c5db59bd3e9fe4bb61ddecc45a5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="vip-serial",VIP Serial
 http://127.0.0.1:6878/ace/getstream?id=d13dd140058b7a528959e2b709aca4111b7cc076&hlc=1&spv=0
 #EXTINF:-1 tvg-id="domkino",Дом кино
@@ -181,8 +149,6 @@ http://127.0.0.1:6878/ace/getstream?id=ce6bb638571f69ca8ac2e612dbeae336c629e3f5&
 http://127.0.0.1:6878/ace/getstream?id=79fc325adef8b1977b790c8435ff868cb6f75794&hlc=1&spv=0
 #EXTINF:-1 tvg-id="rodnoe-kino",Родное кино
 http://127.0.0.1:6878/ace/getstream?id=b46c879a624e1d0aa8eeb18300cda7413657e80a&hlc=1&spv=0
-#EXTINF:-1 tvg-id="feniks-plus-kino",Феникс Плюс Кино
-http://127.0.0.1:6878/ace/getstream?id=505d4c6259acfea0ee5d9b1f26f7badd447f69f6&hlc=1&spv=0
 #EXTINF:-1 tvg-id="football-ru",Футбол HD
 http://127.0.0.1:6878/ace/getstream?id=fce354f24fe26ca527e2c38b14eb7b0c81f756dd&hlc=1&spv=0
 #EXTINF:-1 tvg-id="footbolny",Футбольный HD
