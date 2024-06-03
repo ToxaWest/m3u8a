@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
+#EXTINF:-1 tvg-id="via-play",ViaPlay SPORTS
+http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565&hlc=1&spv=0
 #EXTINF:-1 tvg-id="sony-turbo",.black
 http://127.0.0.1:6878/ace/getstream?id=d67f201bfdc47d376b6195d50a3ac3ee231a92a5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="sony-tv",.red
