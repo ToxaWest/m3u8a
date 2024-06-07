@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG_NOARCH"
+#EXTINF:-1 tvg-id="daznbar2",DAZN 2 HD
+http://127.0.0.1:6878/ace/getstream?id=12ea555d431dbe51fc8e4ca745aec09fe22a4865&hlc=1&spv=0
 #EXTINF:-1 tvg-id="via-play",ViaPlay SPORTS
 http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565&hlc=1&spv=0
 #EXTINF:-1 tvg-id="sony-turbo",.black
