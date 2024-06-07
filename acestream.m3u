@@ -1,24 +1,22 @@
-#EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/EPG_NOARCH"
 #EXTINF:-1 tvg-id="novy-kanal-ua",Новий канал
 http://127.0.0.1:6878/ace/getstream?id=ce6bb638571f69ca8ac2e612dbeae336c629e3f5&hlc=1&spv=0
 #EXTINF:-1 tvg-id="bt-sport1",BT Sport 1 HD
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="eleven-sports-1",Eleven Sport 1 HD
 http://127.0.0.1:6878/ace/getstream?id=36cad67fed5a739757a9db844a551aa845a8d51b&hlc=1&spv=0
-#EXTINF:-1 tvg-id="",Dzan 1 HD
-http://127.0.0.1:6878/ace/getstream?id=47c6e8dadfba2b3bd013feecf4194ecceec428cd&hlc=1&spv=0
 #EXTINF:-1 tvg-id="match-tv",Матч! HD
 http://127.0.0.1:6878/ace/getstream?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2&hlc=1&spv=0
-#EXTINF:-1 tvg-id="bcu-action",BCU Action HD
-acestream://3c679a39456838ea8abc77b288c95df2b7a3f45d
 #EXTINF:-1 tvg-id="bcu-catastrophe",BCU Catastrophe HD
 acestream://07d24566226c5851b9c3a3235e3451854d6baeac
-#EXTINF:-1 tvg-id="bcu-cinema",BCU Cinema HD
-acestream://ed699504c5010cab9046530306960e998a92f5e6
-#EXTINF:-1 tvg-id="bcu-cinemaplus",BCU Cinema+ HD
-acestream://4d6232def7e751c47eb44a017021055e8362b54a
+#EXTINF:-1 tvg-id="bcu-comedy",BCU Comedy HD
+acestream://5c878afe25deb6a7f1cfe198df39d5a073af4134
+#EXTINF:-1 tvg-id="bcu-cosmo",BCU Cosmo HD
+acestream://41e81ad4d12bf52b23e58c4c3fda62bc8ba1bbb5
 #EXTINF:-1 tvg-id="bcu-criminal",BCU Criminal HD
 acestream://ddb42884acd341255390cda62387b5a42d8c2180
+#EXTINF:-1 tvg-id="bcu-fantastic",BCU Fantastic HD
+acestream://2d04b4c1391b16a4995e7b7fe74833d6c9d850ac
 #EXTINF:-1 tvg-id="bcu-filmystic",BCU Filmystic HD
 acestream://2814982beb7bb4bd74ad2f8c721ba4bcf7e93a04
 #EXTINF:-1 tvg-id="bcu-history",BCU History HD
@@ -29,40 +27,54 @@ acestream://c3aa52aab6bd48c3b79189410fbf716f2e4dd293
 acestream://535b288408b7c671bb1d5c292dd64beadf556ab9
 #EXTINF:-1 tvg-id="bcu-kids-plus",BCU Kids+ HD
 acestream://e2db1c6451aeff66756ae166cf507a0b2743b69a
+#EXTINF:-1 tvg-id="bcu-kinorating",BCU Kinorating HD
+acestream://57401c50a256f68da4bc9ebe9965e2f12a9d20e2
 #EXTINF:-1 tvg-id="bcu-media",BCU Kinozakaz HD
 acestream://9cd5a5ee3d83b36cd5dd36dbc912e37531df482b
-#EXTINF:-1 tvg-id="bcu-premiere",BCU Premiere HD
-acestream://52b5bbf1d3a9640f8a186e848f021bfc3daf1154
+#EXTINF:-1 tvg-id="bcu-marvel",BCU Marvel HD
+acestream://bbb0e5dbb5f0059de7b9ffc0cbcd1f9728449fd7
 #EXTINF:-1 tvg-id="bcu-premiere-4k",BCU Premiere Ultra 4K
 acestream://30b1dba65edffa2c0c8ade75257508b00d8a61ea
 #EXTINF:-1 tvg-id="bcu-reality",BCU Reality HD
 acestream://22da1ac893c3daf4035261c84e828c8020648187
+#EXTINF:-1 tvg-id="bcu-ruserial",BCU Ruserial HD
+acestream://49552fcef0397a9f48f7520247ee414a085f61e2
 #EXTINF:-1 tvg-id="bcu-russian",BCU Russian HD
 acestream://5e38456d774827e7312b7eabdde388532a3dfec9
 #EXTINF:-1 tvg-id="bcu-stars",BCU Stars HD
 acestream://05fe94b726e99b1dd548013bd281980f9f27b617
 #EXTINF:-1 tvg-id="bcu-survival",BCU Survival HD
 acestream://7222fcd5c4efe1f4beee535acac83fc195bc51d3
+#EXTINF:-1 tvg-id="bcu-trumotion",BCU TruMotion HD
+acestream://1d316bb0fd6a7741ac8c9a8972b6710e71d84791
 #EXTINF:-1 tvg-id="bcu-ultra4k",BCU Ultra 4K
 acestream://6c82a952053419ef358907fc2fc52151626be0b7
+#EXTINF:-1 tvg-id="bcu-vhs",BCU VHS HD
+acestream://5752b846dab618e12a0a1541ad6573a81ae1265d
 #EXTINF:-1 tvg-id="bcu-kinozal-prem-1",BCU Кинозал Premiere 1 HD
 acestream://122b81e6c37b49a37c3b1984efaf5626371d5df5
 #EXTINF:-1 tvg-id="bcu-kinozal-prem-2",BCU Кинозал Premiere 2 HD
 acestream://d488e696aba7b6a2d3a8977d762bcf4eee1bfd07
+#EXTINF:-1 tvg-id="bcu-kinozal-prem-3",BCU Кинозал Premiere 3 HD
+acestream://ffa797e65b8307a13b2805284e28295884c7e7e1
 #EXTINF:-1 tvg-id="bcu-sssr",BCU Кинозал СССР HD
 acestream://59623cb797c031a5aa4922eb219851547cb346b0
 #EXTINF:-1 tvg-id="bcu-multserial",BCU Мультсериал
 acestream://8bff31504247530c1be06395c11c38ecd1895964
+#EXTINF:-1 tvg-id="bcu-romantic",BCU Романтика HD
+acestream://62f68471bab075eb96e5db4559e7994427db111b
 #EXTINF:-1 tvg-id="bcu-svaty",BCU Сваты HD
 acestream://5cea434c891d27aa66d87d3b23d91ab74c1c72f8
-#EXTINF:-1 tvg-id="amedia2",Amedia 2
-acestream://bfb6b4b7809b0852e6c2ce6fdfa60794dcc089ac
+#EXTINF:-1 tvg-id="amedia1",Amedia 1
+acestream://5b1f4a0fb8abc134de4692179b55e4008f0e5e82
+#EXTINF:-1 tvg-id="amedia-hit",Amedia Hit
+acestream://1b74777f3b2121d067457fc554beb5e1c26b6cd8
 #EXTINF:-1 tvg-id="amedia-premium",Amedia premium HD
 acestream://5988dc4ef60bf2f77939026578ac80771f2938c2
-#EXTINF:-1 tvg-id="tv1000-action",TV1000 Action
-acestream://05a7dd3bf60e16ed1674cb437e1e00084392285e
 #EXTINF:-1 tvg-id="tv1000-worldkino",TV1000 World Kino
 acestream://f8d38c09a74612b9fabf0206cbd28bc11d6bc27d
+#EXTINF:-1 tvg-id="tv1000",TV1000
+acestream://ae0d6d703ef80198263a1a868740cf059eac4e9e
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino",TV1000 Русское кино
 acestream://af4baf7f76a3057eeea815c90747860e9fec488a
 #EXTINF:-1 tvg-id="hollywood-hd",Hollywood HD
@@ -79,8 +91,6 @@ acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 acestream://92f8939c7bff6bcb7e6da39379bb3d7a6a76693f
 #EXTINF:-1 tvg-id="2na2",2x2
 acestream://ae0290d2b26b326c76a6842c1f62b643e29a6801
-#EXTINF:-1 tvg-id="sony-tv",.red
-acestream://e5546c985741ec758b39030c59ade2f3a311a06e
 #EXTINF:-1 tvg-id="sony-turbo",.black
 acestream://d67f201bfdc47d376b6195d50a3ac3ee231a92a5
 #EXTINF:-1 tvg-id="sony-scifi",.sci-fi
@@ -89,12 +99,12 @@ acestream://ed6a12719fbc9c9b38c2ce69c065a84f3a9b42e6
 acestream://21f0299cce733ec3a481135553de468440b3630f
 #EXTINF:-1 tvg-id="cineman",CineMan
 acestream://00d0649880b17050d8a9ed559fc824f98fd578be
-#EXTINF:-1 tvg-id="vip-comedy",VIP Comedy
-acestream://8c7b8be6682d84e033352724243719378c3e1540
+#EXTINF:-1 tvg-id="cineman-rukino",CineMan РуКино
+acestream://51a8548ddcff18ba9f89c4c4cb6eb359fc24b30b
 #EXTINF:-1 tvg-id="vip-megahit",VIP Megahit
 acestream://d83992b759e6227f7cc9a20e4e4dae1b58e645c8
-#EXTINF:-1 tvg-id="vip-serial",VIP Serial
-acestream://d13dd140058b7a528959e2b709aca4111b7cc076
+#EXTINF:-1 tvg-id="vip-premiere",VIP Premiere
+acestream://dc939e7815f47c5db59bd3e9fe4bb61ddecc45a5
 #EXTINF:-1 tvg-id="fox",FOX HD
 acestream://df94afd23701839b3fdcdf669c73f2e3d656126e
 #EXTINF:-1 tvg-id="foxlife",Fox Life HD
@@ -111,8 +121,6 @@ acestream://a4d2d63c562696b5ef7731efb7c2df74d9183700
 acestream://4403739564a9b19055786e9844ea48147b3f930b
 #EXTINF:-1 tvg-id="domkino-premium",Дом кино премиум HD
 acestream://c2877f4320f2029a59f2121525280c539fb1b9e9
-#EXTINF:-1 tvg-id="indiyskoe-kino",ИНДИЙСКОЕ КИНО
-acestream://28ca0f5e5e058a2eda74f7c1595022f2914af123
 #EXTINF:-1 tvg-id="kino-ultra-hd",КИНО UHD
 acestream://038b448c810cad19a2a9e615d94696a23141e379
 #EXTINF:-1 tvg-id="kino-tv",КИНО ТВ
@@ -129,8 +137,6 @@ acestream://6f59144864d644ee3f53fddef7db2c2f69255c2e
 acestream://6c6849a17243f967d0c6f04323af9dfde161c3f2
 #EXTINF:-1 tvg-id="kinokomedia",Кинокомедия
 acestream://dfb83e3ff3c570ba7346641c827d89bd472a18a2
-#EXTINF:-1 tvg-id="kinomiks",Киномикс
-acestream://3dba401ca5f2508ddfa955333e233d40d7f3572e
 #EXTINF:-1 tvg-id="kinopokaz-hd",Кинопоказ HD
 acestream://682b445d50584498d63230dd10d05c793779ad9d
 #EXTINF:-1 tvg-id="kinopremiera-hd",Кинопремьера HD
@@ -153,5 +159,17 @@ acestream://ae38625cca3cae6873509ba05b99aa1af5ec0f4e
 acestream://79fc325adef8b1977b790c8435ff868cb6f75794
 #EXTINF:-1 tvg-id="rodnoe-kino",Родное кино
 acestream://b46c879a624e1d0aa8eeb18300cda7413657e80a
+#EXTINF:-1 tvg-id="feniks-plus-kino",Феникс Плюс Кино
+acestream://505d4c6259acfea0ee5d9b1f26f7badd447f69f6
+#EXTINF:-1 tvg-id="eurosport2",Eurosport 2 HD [DE]
+acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6
 #EXTINF:-1 tvg-id="eurosport2",Eurosport 2 HD
 acestream://6176281b9c46a5621a0e88524f8dc621f173b8e0
+#EXTINF:-1 tvg-id="daznbar1",DAZN 1 Bar HD [DE]
+acestream://897e73c9d578848f596585314ecb9ae067c0e229
+#EXTINF:-1 tvg-id="daznbar2",DAZN 2 Bar HD [DE]
+acestream://12ea555d431dbe51fc8e4ca745aec09fe22a4865
+#EXTINF:-1 tvg-id="daznbar1",DAZN1
+acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151
+#EXTINF:-1 ,DAZN3
+acestream://d1d9ec2361a6ac8edc0b2841866383768cc28df9

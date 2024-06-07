@@ -23,12 +23,12 @@ const parseSearch = [
     'setanta',
     'Шокирующее',
     'кино',
-    'eurosport 2'
+    'eurosport 2',
+    'DAZN'
 ]
 
 const disabled = [
     '[PL]',
-    '[DE]',
     '[US]'
 ]
 
@@ -88,9 +88,9 @@ module.exports = (async () => {
 
     fs.writeFileSync(path.join(__dirname, './epgMap.json'), JSON.stringify(mapId))
     fs.writeFileSync(path.join(__dirname, '/acestream2.m3u'), playlist2.getM3uString()
-        .replace('#EXTM3U', '#EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"')
+        .replace('#EXTM3U', '#EXTM3U url-tvg="https://iptvx.one/EPG_NOARCH"')
     );
     fs.writeFileSync(path.join(__dirname, '/acestream.m3u'), playlist.getM3uString()
-        .replace('#EXTM3U', '#EXTM3U url-tvg="https://epgtut.tk/epg_noarch.xml.gz"')
+        .replace('#EXTM3U', '#EXTM3U url-tvg="https://iptvx.one/EPG_NOARCH"')
     );
 })()
