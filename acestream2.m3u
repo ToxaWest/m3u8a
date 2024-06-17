@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG_NOARCH"
+#EXTINF:-1,Okko sport
+http://127.0.0.1:6878/ace/getstream?id=016d48fb89bb9505ab3f883db1bfb3a7c0a3eccc&hlc=1&spv=0
 #EXTINF:-1,SPORT TV HD
 http://127.0.0.1:6878/ace/getstream?id=af3e4e9fcc5a69848b7f84d3fcf2c4de72bf1b4b&hlc=1&spv=0
 #EXTINF:-1 tvg-id="sony-turbo",.black
