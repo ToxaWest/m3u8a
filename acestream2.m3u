@@ -177,3 +177,5 @@ http://127.0.0.1:6878/ace/getstream?id=fce354f24fe26ca527e2c38b14eb7b0c81f756dd&
 http://127.0.0.1:6878/ace/getstream?id=92f8939c7bff6bcb7e6da39379bb3d7a6a76693f&hlc=1&spv=0
 #EXTINF:-1 tvg-id="shokiruyushchee-hd",Шокирующее HD
 http://127.0.0.1:6878/ace/getstream?id=a4d2d63c562696b5ef7731efb7c2df74d9183700&hlc=1&spv=0
+#EXTINF:-1 ,MEGOGO
+http://127.0.0.1:6878/ace/getstream?id=aa1385279f949a4c1126e422a4a2f80791c2bab5&hlc=1&spv=0
