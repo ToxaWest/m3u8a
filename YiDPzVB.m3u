@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-name=".black" acestream-autosearch="1" group-title="movies",.black
 http://192.168.0.104:6879/ace/getstream?infohash=18cf2d3491233fa980add6db246847a5077be047&hlc=1&transcode_audio=0&transcode_mp3=0&transcode_ac3=0&preferred_audio_language=eng
 #EXTINF:-1 tvg-name=".red HD" acestream-autosearch="1" group-title="movies",.red HD
-http://192.168.0.104:6879/ace/getstream?id=e5546c985741ec758b39030c59ade2f3a311a06e&hlc=1&transcode_audio=0&transcode_mp3=0&transcode_ac3=0&preferred_audio_language=eng
+http://192.168.0.104:6879/ace/getstream?id=e5546c985741ec758b39030c59ade2f3a311a06e&hlc=1&transcode_audio=1
 #EXTINF:-1 tvg-name=".sci-fi" group-title="movies",.sci-fi
 http://192.168.0.104:6879/ace/getstream?id=ed6a12719fbc9c9b38c2ce69c065a84f3a9b42e6&hlc=1&transcode_audio=0&transcode_mp3=0&transcode_ac3=0&preferred_audio_language=eng
 #EXTINF:-1 tvg-name="2x2" group-title="kids",2x2
